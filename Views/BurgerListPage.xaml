@@ -10,7 +10,7 @@
                             SelectionMode="Single"
                             SelectionChanged="OnCollectionViewSelectionChanged">
                 <CollectionView.ItemTemplate>
-                    <DataTemplate x:DataType="models:Burger">
+                    <DataTemplate x:DataType="models:BurgerMA">
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*" />

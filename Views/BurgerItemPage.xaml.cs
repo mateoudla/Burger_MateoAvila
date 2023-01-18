@@ -7,9 +7,9 @@ namespace Burger_MateoAvila.Views;
 public partial class BurgerItemPage : ContentPage
 {
 
-    public Burger Item
+    public BurgerMA Item
     {
-        get => BindingContext as Burger;
+        get => BindingContext as BurgerMA;
         set => BindingContext = value;
     }
 

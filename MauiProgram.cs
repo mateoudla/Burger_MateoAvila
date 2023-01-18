@@ -17,7 +17,7 @@ public static class MauiProgram
 
         // Se agrega esto
         string dbPath = FileAccessHelper.GetLocalFilePath("burger.db3");
-        builder.Services.AddSingleton<BurgerDatabase>(s => ActivatorUtilities.CreateInstance<BurgerDatabase>(s, dbPath));
+        builder.Services.AddSingleton<BurgerDatabaseMA>(s => ActivatorUtilities.CreateInstance<BurgerDatabaseMA>(s, dbPath));
         return builder.Build();
     }
 }

@@ -5,8 +5,8 @@ using Burger_MateoAvila.Data;
 
 public partial class App : Application
 {
-    public static BurgerDatabase BurgerRepo { get; set; }
-    public App(BurgerDatabase repo)
+    public static BurgerDatabaseMA BurgerRepo { get; set; }
+    public App(BurgerDatabaseMA repo)
     {
         InitializeComponent();
 
