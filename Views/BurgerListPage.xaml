@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Burger_MateoAvila.Views.BurgerListPage"
+             xmlns:models="clr-namespace:Burger_MateoAvila.Models"
+             Title="BurgerListPage">
+    <VerticalStackLayout>
+        <Grid RowDefinitions="*,Auto">
+            <CollectionView x:Name="burgerList">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="models:Burger">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="2*" />
+                            </Grid.ColumnDefinitions>
+                            <Label Text="{Binding Id}" />
+                            <Label Grid.Column="1" Text="{Binding Name}" />
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            <Button Grid.Row="1" Text="Añadir nuevo"
+            Clicked="OnItemAdded"
+             Margin="20"/>
+                                
+        </Grid>        <Button Text="Actualizar"
+            Clicked="OnUpdate"
+             Margin="18"/>
+    </VerticalStackLayout>
+</ContentPage>
