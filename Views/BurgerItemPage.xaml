@@ -14,11 +14,11 @@
                 <Label Text="¿Con queso extra?" />
                 <CheckBox IsChecked="{Binding WithExtraCheese}"/>
                 <Button Text="Guardar"
-                Clicked="OnSaveClicked" />
+                Clicked="OnSaveClickedMA" />
                 <Button Text="Cancelar"
-                 Clicked="OnCancelClicked" />
+                 Clicked="OnCancelClickedMA" />
                 <Button Text="Borrar"
-                        Clicked="OnDeleteClicked" />
+                        Clicked="OnDeleteClickedMA" />
             </VerticalStackLayout>
         </ScrollView>
 </ContentPage>

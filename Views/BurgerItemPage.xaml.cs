@@ -17,17 +17,17 @@ public partial class BurgerItemPage : ContentPage
     {
         InitializeComponent();
     }
-    private void OnSaveClicked(object sender, EventArgs e)
+    private void OnSaveClickedMA(object sender, EventArgs e)
     {
         App.BurgerRepo.AddNewBurger(Item);
         Shell.Current.GoToAsync("..");
     }
-    private void OnCancelClicked(object sender, EventArgs e)
+    private void OnCancelClickedMA(object sender, EventArgs e)
     {
         Shell.Current.GoToAsync("..");
     }
 
-    private void OnDeleteClicked(object sender, EventArgs e)
+    private void OnDeleteClickedMA(object sender, EventArgs e)
     {
         App.BurgerRepo.DeleteItem(Item);
         Shell.Current.GoToAsync("..");

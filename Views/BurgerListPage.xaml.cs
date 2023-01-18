@@ -10,7 +10,7 @@ public partial class BurgerListPage : ContentPage
         BindingContext = this;
     }
 
-    public void OnItemAdded(object sender, EventArgs e)
+    public void OnItemAddedMA(object sender, EventArgs e)
     {
         Shell.Current.GoToAsync(nameof(BurgerItemPage), true, new Dictionary<string, object>
         {
@@ -18,7 +18,7 @@ public partial class BurgerListPage : ContentPage
         });
     }
 
-    private void OnUpdate(object sender, EventArgs e)
+    private void OnUpdateMA(object sender, EventArgs e)
     {
         List<BurgerMA> newBurgers = App.BurgerRepo.GetAllBurgers();
         burgerList.ItemsSource = newBurgers;
@@ -26,7 +26,7 @@ public partial class BurgerListPage : ContentPage
 
     private void OnUpdateButtonClicked(object sender, EventArgs e)
     {
-        OnUpdate(sender, e);
+        OnUpdateMA(sender, e);
     }
 
     protected override void OnNavigatedTo(NavigatedToEventArgs args)
