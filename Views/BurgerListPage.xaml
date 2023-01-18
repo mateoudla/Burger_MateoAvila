@@ -6,7 +6,9 @@
              Title="BurgerListPage">
     <VerticalStackLayout>
         <Grid RowDefinitions="*,Auto">
-            <CollectionView x:Name="burgerList">
+            <CollectionView x:Name="burgerList"
+                            SelectionMode="Single"
+                            SelectionChanged="OnCollectionViewSelectionChanged">
                 <CollectionView.ItemTemplate>
                     <DataTemplate x:DataType="models:Burger">
                         <Grid>
@@ -20,12 +22,11 @@
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
-            <Button Grid.Row="1" Text="Añadir nuevo"
-            Clicked="OnItemAdded"
-             Margin="20"/>
-                                
+            <Button Grid.Row="1" Text="Añadir nueva"
+                    Clicked="OnItemAdded"
+                    Margin="20"/>
         </Grid>        <Button Text="Actualizar"
             Clicked="OnUpdate"
-             Margin="18"/>
+             Margin="18"/>
     </VerticalStackLayout>
 </ContentPage>
