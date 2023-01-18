@@ -27,14 +27,33 @@ namespace Burger_MateoAvila.Data
         public int AddNewBurger(Burger burger)
         {
             Init();
-            int result = conn.Insert(burger);
-            return result;
+            if (burger.Id != 0)
+            {
+                return conn.Update(burger);
+            }
+            else
+            {
+                return conn.Insert(burger);
+            }
         }
         public List<Burger> GetAllBurgers()
         {
             Init();
             List<Burger> burgers = conn.Table<Burger>().ToList();
             return burgers;
+        }
+
+        public int DeleteItem(Burger item)
+        {
+            Init();
+            return conn.Delete(item);
+        }
+
+        public Burger ShowItem(Burger item)
+        {
+            Init();
+            List<Burger> burgers = conn.Table<Burger>().ToList();
+            return null;
         }
     }
 }

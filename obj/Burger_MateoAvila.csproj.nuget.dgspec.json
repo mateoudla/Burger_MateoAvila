@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mateoavila/Documents/UDLA/Semestre 2023-10/Programación 4/Burger_MateoAvila/Burger_MateoAvila.csproj": {}
+    "/Users/mateoavila/Documents/GitHub/Burger_MateoAvila/Burger_MateoAvila.csproj": {}
   },
   "projects": {
-    "/Users/mateoavila/Documents/UDLA/Semestre 2023-10/Programación 4/Burger_MateoAvila/Burger_MateoAvila.csproj": {
+    "/Users/mateoavila/Documents/GitHub/Burger_MateoAvila/Burger_MateoAvila.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mateoavila/Documents/UDLA/Semestre 2023-10/Programación 4/Burger_MateoAvila/Burger_MateoAvila.csproj",
+        "projectUniqueName": "/Users/mateoavila/Documents/GitHub/Burger_MateoAvila/Burger_MateoAvila.csproj",
         "projectName": "Burger_MateoAvila",
-        "projectPath": "/Users/mateoavila/Documents/UDLA/Semestre 2023-10/Programación 4/Burger_MateoAvila/Burger_MateoAvila.csproj",
+        "projectPath": "/Users/mateoavila/Documents/GitHub/Burger_MateoAvila/Burger_MateoAvila.csproj",
         "packagesPath": "/Users/mateoavila/.nuget/packages/",
-        "outputPath": "/Users/mateoavila/Documents/UDLA/Semestre 2023-10/Programación 4/Burger_MateoAvila/obj/",
+        "outputPath": "/Users/mateoavila/Documents/GitHub/Burger_MateoAvila/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [

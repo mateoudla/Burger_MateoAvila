@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jtgx3MyXwOSdPOgi/wZnCmGzBqWv8vo70VFL7Ap0SQ+SbLZ93dJSiVv3EiPabzPyUEvCo8P+4gSKqKQYoV1O7Q==",
+  "dgSpecHash": "EmLbUFw92T38oGzHBRW0E4I1WUQg+3xa7KB2htAk9crCsoG+tC2kXODZDTZtWz0llcwfEaaVp1WeE/tKVXM4LQ==",
   "success": true,
-  "projectFilePath": "/Users/mateoavila/Documents/UDLA/Semestre 2023-10/Programación 4/Burger_MateoAvila/Burger_MateoAvila.csproj",
+  "projectFilePath": "/Users/mateoavila/Documents/GitHub/Burger_MateoAvila/Burger_MateoAvila.csproj",
   "expectedPackageFiles": [
     "/Users/mateoavila/.nuget/packages/googlegson/2.9.0.1/googlegson.2.9.0.1.nupkg.sha512",
     "/Users/mateoavila/.nuget/packages/microsoft.extensions.configuration/6.0.1/microsoft.extensions.configuration.6.0.1.nupkg.sha512",
